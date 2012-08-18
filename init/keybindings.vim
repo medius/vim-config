@@ -6,11 +6,11 @@ let mapleader = "\\"
 
 
 " Leader shortcuts for Rails commands
-" map <Leader>m :Rmodel 
-" map <Leader>c :Rcontroller 
-" map <Leader>v :Rview 
-" map <Leader>u :Runittest 
-" map <Leader>f :Rfunctionaltest 
+map <Leader>m :Rmodel 
+map <Leader>c :Rcontroller 
+map <Leader>v :Rview 
+map <Leader>u :Runittest 
+map <Leader>f :Rfunctionaltest 
 " map <Leader>tm :RTmodel 
 " map <Leader>tc :RTcontroller 
 " map <Leader>tv :RTview 
@@ -31,7 +31,7 @@ map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
 
 " Opens a tab edit command with the path of the currently edited file filled in
 " Normal mode: <Leader>t
-map <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
+" map <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
 
 " Inserts the path of the currently edited file into a command
 " Command mode: Ctrl+P
@@ -88,7 +88,7 @@ map <silent> <C-H> :call Html2Haml()<CR>
 map <silent> <C-Q> :noh<CR>
 
 
-nnoremap <Leader>c :set cursorline!<CR>
+" nnoremap <Leader>c :set cursorline!<CR>
 
 nmap gx <Plug>(openbrowser-smart-search)
 vmap gx <Plug>(openbrowser-smart-search)

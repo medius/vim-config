@@ -1,4 +1,4 @@
 "--------------
 " Color Scheme
 "--------------
-colorscheme sunburst
+colorscheme sunburst2
