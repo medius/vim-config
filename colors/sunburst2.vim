@@ -43,8 +43,8 @@ hi PmenuSel     guifg=#ffffff guibg=#242424
 hi Folded       guifg=#c2bfa5 guibg=#666666
 hi Todo         guifg=#fd5ff1 guibg=#000000 gui=italic,underline
 hi PreProc      guifg=#9b859d
-hi Visual                     guibg=#242424
-hi VisualNOS                  guibg=#202020
+hi Visual                     guibg=#646464
+hi VisualNOS                  guibg=#606060
 hi Comment      guifg=#7f7f7f               gui=italic
 hi Constant     guifg=#3387cc
 hi Directory    guifg=#3387cc
