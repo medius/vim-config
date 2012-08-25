@@ -76,10 +76,10 @@ nmap <D-/> Vgc<ESC>
 imap <C-Return> <Esc>o
 
 " CTRL-O will create a new line below your cursor and not be in insert mode
-map <C-O> o<Esc>
+" map <C-O> o<Esc>
 
 " CTRL-A will create a new line above your cursor and not be in insert mode
-map <C-A> O<Esc>
+" map <C-A> O<Esc>
 
 
 map <silent> <C-H> :call Html2Haml()<CR>
